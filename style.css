@@ -1,0 +1,142 @@
+body{
+    background: url(https://cdn.mos.cms.futurecdn.net/rDJegQJaCyGaYysj2g5XWY.jpg);
+    background-size: 1350px 650px;
+    background-repeat: no-repeat;
+    background-color: black;
+    color: white;
+   
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    
+}
+
+nav .img img{
+    width: 17%;
+    margin-top: -18px;
+
+}
+
+nav .btn{
+    display: flex;
+    margin-top: 12px;
+}
+.btn .eng{
+    width: 90px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    font-size: 19px;
+    border-radius: 3px;
+    margin-left: 43px;
+}
+.btn .eng:hover{
+    background-color: transparent;
+}
+
+.btn .sign:hover{
+    background-color: transparent;
+    border: 3px solid red;
+}
+
+.btn .sign{
+    width: 90px;
+    height: 40px;
+    background-color:red;
+    color: white;
+    font-size: 19px;
+   border-radius: 3px;
+   border: none;
+}
+.btn .eng{
+    margin-inline: 22px;
+
+}
+
+.main{
+    text-align: center;
+}
+
+.main h1{
+    font-size: 60px;
+}
+.main h3{
+    font-size: 34px;
+}
+.main p{
+    font-size: 27px;
+}
+.input{
+    display: flex;
+    justify-content: center;
+
+}
+
+.input input{
+    width: 400px;
+    height: 58px;
+    border: none;
+    font-size: 26px;
+}
+
+.input button{
+    width: 200px;
+    height: 60px;
+    background-color: rgb(225, 11, 11);
+    color: white;
+    font-size: 26px;
+    border: none;
+}
+
+.first{
+    display: flex;
+    justify-content: center;
+    border-top: 4px solid gray;
+    margin-top: 185px;
+    padding: 66px;  
+
+
+}
+.first h1{
+    font-size: 55px;
+}
+.first p{
+    font-size: 27px;
+}
+
+.first img{
+    width: 44%;
+    
+}
+
+.buttons h1{
+    text-align: center;
+    margin-top: 33px;
+    font-size: 44px;
+}
+
+.buttons button{
+    width: 600px;
+    height: 60px;
+    background-color: grey;
+    color: white;
+    font-size: 26px;
+    margin-left:26%;
+    text-align: left;
+    margin-top: 15px;
+    
+
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 44px;
+    border-top: 4px solid grey;
+    margin-top: 53px;
+}
+
